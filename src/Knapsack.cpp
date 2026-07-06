@@ -2,7 +2,7 @@
 --------------------------------------------
 Project : 0/1 Knapsack
 Language: C++
-Author   : Kartik Parashar
+Author   : Kartik Parasar
 
 Description:
 Implementation of 0/1 Knapsack using Dynamic Programming.

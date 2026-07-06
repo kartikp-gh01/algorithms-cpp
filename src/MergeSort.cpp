@@ -2,7 +2,7 @@
 --------------------------------------------
 Project : Merge Sort
 Language: C++
-Author   : Kartik Parashar
+Author   : Kartik Parasar
 
 Description:
 Implementation of Merge Sort using Divide and Conquer approach.

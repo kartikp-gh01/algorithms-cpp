@@ -2,7 +2,7 @@
 --------------------------------------------
 Project : Binary Search
 Language: C++
-Author   : Kartik Parashar
+Author   : Kartik Parasar
 
 Description:
 Implementation of Binary Search using Iterative Approach.
