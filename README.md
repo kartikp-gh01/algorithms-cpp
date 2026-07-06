@@ -142,7 +142,7 @@ g++ src/Knapsack.cpp -o Knapsack.exe
 
 ## 👨‍💻 Author
 
-**Kartik Parashar**
+**Kartik Parasar**
 
 C++ Programming Intern | Alfido Tech
 
