@@ -18,7 +18,9 @@ O(n)
 */
 
 #include <iostream>
+#include <chrono>
 using namespace std;
+using namespace std::chrono;
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 void merge(int arr[], int left, int mid, int right)
@@ -114,10 +116,20 @@ int main()
     cout << "\nOriginal Array:\n";
     display(arr, n);
 
+    auto start = high_resolution_clock::now();
+
     mergeSort(arr, 0, n - 1);
 
     cout << "\nSorted Array:\n";
     display(arr, n);
+
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<microseconds>(stop - start);
+
+
+    cout << "\nExecution Time: "
+     << duration.count()
+     << " microseconds" << endl;
 
     return 0;
 }
